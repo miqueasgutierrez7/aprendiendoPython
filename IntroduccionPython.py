@@ -43,29 +43,19 @@ Por ahora, no necesitas entender cómo funcionan todas estas líneas de código:
 """
 
 #Ejercicios practicos
-#1 
-#programa pregunta al usuario si el día es su cumpleaños e imprime un mensaje de cumpleaños si lo es. 
 
 user_birthday = input("Is it your birthday today? ")
 if  user_birthday== "yes":
     print("Happy birthday!")
 
 #2
-"""
-Creando una función para sumar dos números enteros
-Reportar un error tipográfico
-De vez en cuando, puede que necesites ajustar el código de otra persona para un propósito diferente. Aquí es cuando leer código resulta útil. ¡Hagámoslo!
-Escanea #commentsel código a continuación y luego complétalo rellenando los espacios en blanco. Puede que aún no entiendas todas las líneas de código, pero sin duda puedes usarlo, ¡con tu intuición para el lenguaje!
-"""
+
+
+def add_numbers(num1, num2):
+    return num1 + num2
+result= add_numbers(3, 4)
+print("El resultado es "+ str(result));
 
 #3
+print("Hollo, world")
 
-
-# Define a function that adds two numbers
-def add_numbers(num1, num2):
-    return num1 + num2  # ✅ Bien indentado
-result = add_numbers(3, 4)
-
-# Print the result
-
-print("The sum of the numbers is " + str(result)) 

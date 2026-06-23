@@ -1,6 +1,6 @@
 #Conversión a booleano
 
-"""  
+"""
 Ya sabes que todos los objetos en Python se pueden interpretar como valores booleanos . Los objetos evaluados como True" truety" y " falsy" Falseson " falsy" . Los siguientes valores son "falsy":
 
 algunas constantes: Noney False,
@@ -118,10 +118,10 @@ def print_list(lst):
 
 
 print_list([2, 3, 4])  # [2, 3, 4]
-print_list([])  
+print_list([])
 
 
-print([1] and "hola")  
+print([1] and "hola")
 
 print("1 and '0' =>", 1 and '0')
 
@@ -237,7 +237,7 @@ def print_list(lst):
     else:
         print('empty list')
 
-print_list(0)
+print_list([2, 3, 4])
 
 
 print(bool([1] and not [0]))

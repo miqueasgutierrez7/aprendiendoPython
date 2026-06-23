@@ -87,7 +87,7 @@ print('1 2 3 4 5 6 7 8 9 10')
 age = 26
 print('Age:', age)
 
-#Float 
+#Float
 height = 1.87
 print('Height:', height)
 
@@ -109,7 +109,7 @@ data_type = type(data)
 print(data_type)
 
 #6
-data = 42 
+data = 42
 data_type = type(data)
 print("El tipo de dato es:", data_type)
 

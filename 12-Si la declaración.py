@@ -15,3 +15,21 @@ if biscuits >= 5:
     print("It's time for tea!")
     print("What tea do you prefer?")
 print("What about some chocolate?")
+
+Practica
+Ejercicio 1:
+"Alex escribió un programa que lee "a" numbery "a" wordde la entrada para crear frases como "3 cats""y" "1 dog". Desafortunadamente, la condición para sustantivos plurales no está implementada. Alex no sabe cómo usar sentencias condicionales , pero tú sí. Ayuda a Alex a completar este programa.
+
+La forma plural de una palabra generalmente termina en s . Todos los números, excepto el 1 , esperan la forma plural después de ellos, incluso el cero: "0 birds".
+
+Las palabras cuyo plural no se forma añadiendo una "s" NO aparecerán en las pruebas."
+
+
+
+number = 12
+word = "dos"
+
+if number == 1:
+    print(f"{number} {word}")
+else:
+    print(f"{number} {word}s")

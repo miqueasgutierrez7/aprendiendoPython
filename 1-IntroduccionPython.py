@@ -1,4 +1,4 @@
-"""
+1-Introduccion a Python
 ¿Hablas Python?
 Dado el énfasis de Python en la simplicidad, ya estás equipado para comprender y recrear programas básicos con facilidad.
 Creemos el clásico programa "¡Hola, mundo!", un saludo amistoso desde tu computadora:
@@ -9,7 +9,7 @@ print("Hello, world!")
 """
 ¡Puedes reemplazar la frase dentro de los paréntesis para crear tu propio programa Python!
 Las funciones y métodos integrados de Python tienen nombres intuitivos, lo que facilita su comprensión. A continuación, se explica cómo usarlos input()para solicitar datos de usuario:
-""" 
+"""
 
 age = input("How old are you? ")
 print("I know, that you're " + age + " years old")

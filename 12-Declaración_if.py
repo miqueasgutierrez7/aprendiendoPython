@@ -1,4 +1,4 @@
-"Si la declaración
+"Declaracion if
 
 Hay situaciones en las que tu programa necesita ejecutar cierto código solo si se cumple una condición específica. Es posible establecer esa condición en Python y, en este tema, ¡vamos a aprender cómo hacerlo!
 
@@ -26,10 +26,44 @@ Las palabras cuyo plural no se forma añadiendo una "s" NO aparecerán en las pr
 
 
 
-number = 12
-word = "dos"
+number = 3
+word = "cat"
 
-if number == 1:
-    print(f"{number} {word}")
+if number != 1:
+   print(f"{number} {word}s")
 else:
-    print(f"{number} {word}s")
+   print(f"{number} {word}")
+
+
+
+biscuits = 10
+if biscuits >= 5:
+    print("It's time for tea!")
+    print("What tea do you prefer?")
+print("What about some chocolate?")
+
+"practicando"
+
+ejercicio 1
+
+coin = bool(int(input()))
+if coin:
+    print("Welcome to Charon's boat!")
+print("There is no turning back.")
+
+# Function to test if a number is Positive, Negative, or Zero
+def check_num(n):
+    if n > 0:
+        return "Positive"
+    elif n < 0:
+        return "Negative"
+    else:
+        return "Zero"
+
+# Testing your function with inputs
+# Example: read a number from input and call the function with it.
+number = int(input())
+print(check_num(number))
+
+
+

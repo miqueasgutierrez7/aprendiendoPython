@@ -1,7 +1,5 @@
-def print_list(lst):
-    if lst:
-        print(lst)
-    else:
-        print('empty list')
-
-print_list([2, 3, 4])
+coin = bool(int(input()))
+if coin:
+    print("Welcome to Charon's boat!")
+else:
+    print("There is no turning back.")

@@ -1,5 +1,6 @@
-coin = bool(int(input()))
-if coin:
-    print("Welcome to Charon's boat!")
+year = int(input())
+
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print("Leap")
 else:
-    print("There is no turning back.")
+    print("Ordinary")

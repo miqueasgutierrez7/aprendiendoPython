@@ -134,3 +134,20 @@ else:
     # Si son iguales, se muestran ambos
     print(a)
     print(b)
+
+#Ejercicio 6
+
+si la temperatura supera los 30 grados, el programa muestre "Hace mucho calor hoy" y, en caso contrario, "No hace tanto calor". Asegúrate de implementar la estructura de control de flujo correcta para que el programa funcione como se espera.
+
+temperature = 30
+
+response = "It's really hot today."
+if temperature > 30:
+    response = "It's really hot today."
+else:
+    reponse = "It's not so hot today."
+
+
+#Ejercicio 7
+
+

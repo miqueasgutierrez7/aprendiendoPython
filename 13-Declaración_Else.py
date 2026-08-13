@@ -149,5 +149,19 @@ else:
 
 
 #Ejercicio 7
+ Un programa que encuentra el máximo de dos números.
 
+if a > b:
+    print(a)
+else:
+    print(b)
 
+#Ejercicio 8
+Programa que aparece a continuación pregunta al usuario si ha dormido lo suficiente y le sugiere tomar café o cacao dependiendo de la respuesta.
+
+print("Have you had enough sleep today?")
+anwer = input()
+if answer == "yes":
+   print("Let's drink cocoa!")
+else:
+    print("I 'd recommend a coffee!")

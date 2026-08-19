@@ -1,7 +1,2 @@
-temperature = 30
-
-response = "It's really hot today."
-if temperature > 30:
-    response = "It's really hot today."
-else:
-    reponse = "It's not so hot today."
+x= 111
+print(x * 3 if x <= 99988 else x * 2)

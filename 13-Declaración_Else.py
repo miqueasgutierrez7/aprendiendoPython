@@ -165,3 +165,25 @@ if answer == "yes":
    print("Let's drink cocoa!")
 else:
     print("I 'd recommend a coffee!")
+
+
+#Ejercicio 9
+answer = input()
+print("Let's drink cocoa!" if answer == "yes" else "I'd recommend a coffee!")
+
+
+#Ejercicio 11
+
+x= 111
+print(x * 3 if x <= 99988 else x * 2)
+
+# Ejercicio 12
+
+a = int(input())
+b = int(input())
+c = int(input())
+
+if a > 0 and b > 0 and c > 0 and (a + b + c == 180)
+    print("The tringle is valid!")
+else:
+    print("The tringle is not valid!")

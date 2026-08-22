@@ -187,3 +187,27 @@ if a > 0 and b > 0 and c > 0 and (a + b + c == 180)
     print("The tringle is valid!")
 else:
     print("The tringle is not valid!")
+
+# Ejercicio 13
+
+x = 5
+
+if x > 10 :
+    print("El numero es mayor que 10")
+else:
+    print("El numero es menor que o igual a 10")
+
+
+# Ejercicio 14
+
+for i in range(1, 6):
+    if i == 1:
+        print(i, 'little bear')
+
+    else:
+        print(i, 'little bears')
+    print('Wondering what to do')
+    print('Along came another')
+    print('Then there were', i+1, '!')
+
+

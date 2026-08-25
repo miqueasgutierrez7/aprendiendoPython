@@ -1,9 +1,5 @@
-for i in range(1, 6):
-    if i == 1:
-        print(i, 'little bear')
+integer = int(number)  # 111
+float_number = float(number)  # 111.0
 
-    else:
-        print(i, 'little bears')
-    print('Wondering what to do')
-    print('Along came another')
-    print('Then there were', i+1, '!')
+# adding numbers
+my_sum = sum((integer, float_number))

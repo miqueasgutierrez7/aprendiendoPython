@@ -43,3 +43,34 @@ float_number = float(number)  # 111.0
 
 # adding numbers
 my_sum = sum((integer, float_number))
+
+# El resultado es un número de punto flotante, lo cual se hace evidente después de imprimirlo my_sum
+
+print(my_sum)  # 222.0
+print(round(my_sum))  # 222
+
+#Además, puedes ver cómo encontrar los valores mínimo y máximo: en este ejemplo, el número más pequeño es 3 y el número más grande 8.4 (la suma de 3 y 5.4) pertenece a los números de coma flotante.
+
+# finding the minimum and the maximum
+integer = 3
+float_number = 5.4
+my_sum = sum((integer, float_number))
+
+print(min(integer, float_number))  # 3
+print(type(max(integer, float_number, my_sum)))
+
+help(len)
+
+#Practicando
+
+#Ejercicio 1
+
+#Lee el texto tres veces. Cada entrada contiene la edad de una persona: Jack, Alex y Lana. Encuentra a la persona más joven y imprime su edad
+
+jack_age = 22
+alex_age = 42
+lana_age = 34
+
+print(max(jack_age, alex_age, lana_age))
+
+

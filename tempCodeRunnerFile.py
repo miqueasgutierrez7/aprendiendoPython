@@ -1,5 +1,6 @@
-jack_age = 22
-alex_age = 42
-lana_age = 34
+num1 = int(input("Num1:"))
+num2 = int(input("Num2:"))
 
-print(max(jack_age, alex_age, lana_age))
+del sum_number(a, b)
+    return sum((a, b))
+print("Resultado:", str(num1, num2))

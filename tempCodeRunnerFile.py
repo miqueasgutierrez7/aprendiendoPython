@@ -1,6 +1,6 @@
-num1 = int(input("Num1:"))
-num2 = int(input("Num2:"))
+def show_min(a, b):
+    return min(a, b)
+def show_max(a, b):
+    return max(a, b)
+print("Min:", show_min(5, 10), "Max:", show_max(5, 10) )
 
-del sum_number(a, b)
-    return sum((a, b))
-print("Resultado:", str(num1, num2))

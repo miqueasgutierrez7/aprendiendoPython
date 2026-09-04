@@ -82,5 +82,22 @@ def sum_number(a, b):
     return sum((a, b))
 print("Resultado:", sum_number(num1, num2))
 
+#Ejercicio 3
+
+word1 = "short"
+word2 = "longer"
+word3 = "longest"
+
+def find_longest(word1, word2,word3):
+    return max(len(word1), len(word2), len(word3))
+
+#Ejercicio 4
+
+def show_min(a, b):
+    return min(a, b)
+def show_max(a, b):
+    return max(a, b)
+print("Min:", show_min(5, 10), "Max:", show_max(5, 10) )
+
 
 

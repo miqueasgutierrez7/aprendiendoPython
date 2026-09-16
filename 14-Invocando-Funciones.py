@@ -99,5 +99,35 @@ def show_max(a, b):
     return max(a, b)
 print("Min:", show_min(5, 10), "Max:", show_max(5, 10) )
 
+#Ejercicio 5
+
+base = int(input())
+exponent = int(input())
+result = pow(base, exponent)
+print(result)
+
+
+#Ejercicio 6
+
+x = int(input())
+y = int(input())
+print(sum((x, y)))
+
+#Ejercicio 7
+
+name = input()
+print("Hello, word! Hello, " + name)
+
+
+#Ejercicio 8
+
+#Encuentra la palabra más larga de cada par e imprime su longitud.
+
+word1 = input()
+word2 = input()
+print(len(max(word1, word2, key=len)))
+
+
+
 
 

@@ -1,3 +1,2 @@
-word1 = input()
-word2 = input()
-print(len(max(word1, word2, key=len)))
+dog_breeds = ['corgi', 'labrador', 'poodle', 'jack russell']
+print(dog_breeds) 

@@ -1,2 +1,2 @@
-dog_breeds = ['corgi', 'labrador', 'poodle', 'jack russell']
-print(dog_breeds) 
+on_off_list = ['on', 'off', 'on', 'off', 'on']
+print(on_off_list)

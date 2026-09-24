@@ -1,2 +1,2 @@
-on_off_list = ['on', 'off', 'on', 'off', 'on']
-print(on_off_list)
+input_str = input()
+print(list(input_str))

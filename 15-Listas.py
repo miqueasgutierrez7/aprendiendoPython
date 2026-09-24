@@ -79,3 +79,28 @@ print(len(multi_elements_list))  # 7
 #Además de utilizarse para crear una lista vacía, la función también puede utilizarse para crear una lista a partir de un objeto iterable. list()
 
 #Para obtener más información sobre este tema, consulte la función range de Python y sus métodos en el blog de Hyperskill.
+
+
+#Pranticando
+
+#Ejercicio 1
+
+#scribe un programa que construya una lista a partir de los símbolos de la cadena dada y luego la imprima.
+
+#Entonces, si input_str, por ejemplo, contiene una cadena "python", su programa debería convertirla en una lista ['p', 'y', 't', 'h', 'o', 'n']e imprimirla.
+
+input_str = input()
+print(list(input_str))
+
+#Ejercicio 2
+
+#Hay una variable hiddenque contiene una lista. Imprime la longitud de la lista
+
+hidden = list(input())
+print(len(hidden))
+
+#Ejercicio 3
+
+#Hay una variable hiddenque contiene una lista. Imprime la longitud de la lista .
+hidden = list(input())
+print(len(hidden))

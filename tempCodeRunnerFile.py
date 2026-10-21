@@ -1,9 +1,8 @@
-for x in range(1, 101):
-    if x % 3 == 0 and x % 5 == 0:
-        print('FizzBuzz')
-    elif x % 3 == 0:
-        print('Fizz')
-    elif x % 5 == 0:
-        print('Buzz')
-    else:
-        print(x)
+string = "red yellow fox bite orange goose beeeeeeeeeeep"
+vowels = 'aeiou'
+count = 0
+
+for letter in string:
+    if letter in vowels:
+        count += 1
+print(count)

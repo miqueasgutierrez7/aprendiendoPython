@@ -1,0 +1,74 @@
+#Declaracion elif
+
+#Ahora que ya conoces las sentencias condicionales básicas, como la sentencia if y la sentencia if-else , es hora de ver la sentencia elif, más avanzada . ¡Prepárat
+
+#¿Elfo? ¡Elif!
+#La instrucción `elif` se utiliza cuando queremos especificar varias condiciones en nuestro código. ¿En qué se diferencia de las instrucciones `if-else` ? Es sencillo. Aquí añadimos la palabra clave `elif` para nuestras condiciones adicionales. Se usa principalmente con los operadores `if` y `else`, y la sintaxis básica es la siguiente:
+
+#¿Elfo? ¡Elif!
+#La instrucción `elif` se utiliza cuando queremos especificar varias condiciones en nuestro código. ¿En qué se diferencia de las instrucciones `if-else` ? Es sencillo. Aquí añadimos la palabra clave `elif` para nuestras condiciones adicionales. Se usa principalmente con los operadores `if` y `else`, y la sintaxis básica es la siguiente:
+
+# basic elif syntax
+
+if condition1:
+    action1
+elif condition2:
+    action2
+else:
+    action3
+
+
+#La condición va seguida de dos puntos, al igual que en las sentencias if-else . La acción deseada se coloca dentro del cuerpo de elif y no olvides la indentación , es decir, 4 espacios al comienzo de una nueva línea. Aquí primero comprobamos la condición1 en la sentencia if y, si se cumple (el valor de la expresión booleana es True ), se ejecuta la acción1. Si es False , omitimos la acción1 y luego comprobamos la condición2 en la sentencia elif . De nuevo, si la condición2 es True, se ejecuta la acción2; de lo contrario, la omitimos y pasamos a la parte else del código.
+
+# elif example
+prince = 10000
+if price > 5000:
+    print("That's too expensive")
+elif prince > 500:
+    print("I can afford that!")
+else:
+    print("That's too charp")
+
+#¿Comprar o no comprar? Para responder a la pregunta, primero comprobamos si el precio es superior a 5000. Si 'precio > 5000' es verdadero, imprimimos que es demasiado caro y nos vamos a buscar algo más barato. Pero, ¿qué pasa si el precio es menor o igual a 5000? En este caso, comprobamos la siguiente condición 'precio > 500', y de nuevo, si es verdadero, imprimimos que podemos permitírnoslo, y si es falso, vamos al bloque else e imprimimos que es demasiado barato. Así pues, se imprimirá "¡Puedo permitírmelo!" si el precio es menor o igual a 5000 pero mayor que 500, y "¡Es demasiado barato!" si el precio es menor o igual a 500.
+
+#La instrucción `elif` se diferencia de `else` en un aspecto clave: representa otra opción específica, mientras que `else` abarca todos los casos que no se ajustan a la condición dada en la instrucción `if` . Por eso, a veces puedes encontrar instrucciones condicionales sin `else`
+
+pet = 'cat' # or 'dog'
+
+# cat vs dogs conditional
+
+if pet == 'cat':
+    print('Oh, you are a cat person. Mew')
+elif pet == 'dog':
+    print('Oh, you are dog person. Wooh')
+
+#En este ejemplo, es posible agregar una instrucción else para ampliar ligeramente la perspectiva, pero no es necesario si solo nos interesan los perros y los gatos.
+
+#¿Por qué elif y no if?
+#El último ejemplo probablemente te hizo preguntarte: ¿por qué usamos una elifsola instrucción en lugar de dos if? ¿No sería ifmás fácil usar dos instrucciones?
+
+pet = 'cat'
+
+# Esto seria un error
+
+if pet == 'cat'
+    print('Oh, you are a cat person. Mew')
+if pet == 'dog':
+    print('Oh, you are a dog person. Woof!')
+
+#En este caso particular, el resultado sería el mismo que con elif. Pero esto no funcionaría como se necesita para el primer ejemplo de este tema:
+
+
+#Aqui pasa por las 2 opciones
+price = 6000
+
+if price > 5000:
+    print("That's too expensive")
+if price > 500:
+   print("I can afford that!")
+else:
+    print("That's too cheap!")
+
+
+
+

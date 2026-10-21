@@ -88,6 +88,30 @@ for x in range(1, 101):
     else:
         print(x)
 
+#Ejercicio 3
+
+#You have a predefined string vowels that contains all letters designating vowel sounds. Write a program that counts the number of vowels in the variable string and prints this number.
+
+
+string = "red yellow fox bite orange goose beeeeeeeeeeep"
+vowels = 'aeiou'
+count = 0
+
+for letter in string:
+    if letter in vowels:
+        count += 1
+print(count)
+
+
+#Ejercicio 4
+
+digits = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
+
+phone = input()
+
+for digit in phone:
+    print(digits[int(digit)])
+
 
 
 

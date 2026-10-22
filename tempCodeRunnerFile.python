@@ -1,8 +1,10 @@
-price = 6000
+light = "red"
 
-if price > 5000:
-    print("That's too expensive")
-elif price > 500:
-   print("I can afford that!")
+if light == "green":
+    print("You can go!")
+elif light == "yellow":
+    print("Get ready!")
+elif light == "red":
+    print("Just wait.")
 else:
-    print("That's too cheap!")
+    print("No such traffic light color, do whatever you want")

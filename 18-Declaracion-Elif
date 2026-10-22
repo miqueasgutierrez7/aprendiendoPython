@@ -69,6 +69,49 @@ if price > 500:
 else:
     print("That's too cheap!")
 
+#¿Lo ves? Recibimos dos mensajes contradictorios en lugar del único que pretendíamos mostrar. La diferencia entre los ejemplos anteriores radica en que, en el ejemplo de las mascotas, los casos descritos por las sentencias condicionales son mutuamente excluyentes ; es decir, no existe ninguna cadena que sea igual a ambas condiciones 'dog'a 'cat'la vez. En el otro ejemplo, los casos no son mutuamente excluyentes y existen valores para priceque pueden satisfacer ambas condiciones.
 
+animal = 'pony'
 
+if animal in 'crow, dog, frog, pony':
+    print('This animals exists')
+if animal in 'unicorn, pegasus, pony':
+    print('This animal is a horse')
 
+#Teniendo en cuenta esta distinción, podrás escribir un código más claro y con menos errores. Ahora, volvamos al estudio de elifla funcionalidad.
+
+#Múltiples funciones elif y un árbol de decisiones
+#Puede haber tantas sentencias elif como necesite, por lo que sus condiciones pueden ser muy detalladas. No importa cuántas sentencias elif tenga, la sintaxis siempre es la misma. La única diferencia es que agregamos más elif :
+
+# Multiples elif syntax
+
+if condition1:
+    action1
+elif condition2:
+    action2
+elif conditionN:
+    actionN
+else:
+    actionN1
+
+#El código dentro del bloque else se ejecuta solo si todas las condiciones anteriores son falsas . Vea el siguiente ejemplo:
+
+# Multiples elif examples:
+
+light = "red"
+
+if light == "green":
+    print("You can go!")
+elif light == "yellow":
+    print("Get ready!")
+elif light == "red":
+    print("Just wait.")
+else:
+    print("No such traffic light color, do whatever you want")
+
+#En este programa, el mensaje del bloque else se imprime para la luz de cualquier color excepto verde, amarillo y rojo, para los cuales hemos escrito mensajes especiales.
+
+#Las condicionales con múltiples ramas forman un árbol de decisión , donde cada nodo es una expresión booleana y las ramas se marcan como Verdadero o Falso . La rama marcada como Verdadero conduce a la acción que debe ejecutarse, y la rama marcada como Falso conduce a la siguiente condición. La imagen a continuación muestra un árbol de decisión de este tipo en nuestro ejemplo con semáforos.
+
+#Sentencias elif anidadas
+#Las sentencias `elif` también pueden anidarse , al igual que las sentencias `if-else` . Podemos reescribir nuestro ejemplo de semáforos con condicionales anidados:

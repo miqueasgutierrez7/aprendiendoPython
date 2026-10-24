@@ -115,3 +115,40 @@ else:
 
 #Sentencias elif anidadas
 #Las sentencias `elif` también pueden anidarse , al igual que las sentencias `if-else` . Podemos reescribir nuestro ejemplo de semáforos con condicionales anidados:
+
+# nested elifs axample
+traffic_lights = "green, yellow, red"
+
+# a string with one color
+
+light = "green"
+if light in traffic_lights:
+    if light == "green":
+        print("You can go!")
+    elif light == "yellow":
+        print("Get ready!")
+    else:
+        print("Just wait.")
+else:
+    print("No such traffic light color, do whatever you want")
+
+#Resumen
+#En este tema, nos familiarizamos con la sentencia `elif` y aprendimos cuándo puede ser útil, cómo usarla, cómo anidarla y cómo crear un árbol de decisiones con ella. Ahora que dominas el tema de las condicionales, ¡a partir de ahora puedes hacer que tu programa haga lo que quieras cuando quieras!
+
+#Practicando:
+
+#Ejercicio1:
+
+age = 18
+
+if age < 13:
+    output = "You are a child."
+elif age < 20:
+    output = "You are a teenager."
+else:
+    output = "You are an adult."
+
+print(output)
+
+#Ejercicio2:
+

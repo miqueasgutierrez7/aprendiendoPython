@@ -1,10 +1,14 @@
-light = "red"
+traffic_lights = "green, yellow, red"
 
-if light == "green":
-    print("You can go!")
-elif light == "yellow":
-    print("Get ready!")
-elif light == "red":
-    print("Just wait.")
+# a string with one color
+
+light = "green"
+if light in traffic_lights:
+    if light == "green":
+        print("You can go!")
+    elif light == "yellow":
+        print("Get ready!")
+    else:
+        print("Just wait.")
 else:
     print("No such traffic light color, do whatever you want")

@@ -1,14 +1,14 @@
-traffic_lights = "green, yellow, red"
+units = int(input())
 
-# a string with one color
-
-light = "green"
-if light in traffic_lights:
-    if light == "green":
-        print("You can go!")
-    elif light == "yellow":
-        print("Get ready!")
-    else:
-        print("Just wait.")
+if units < 1:
+    print("no army")
+elif units >=1 and units<= 9:
+    print("few")
+elif units >=10 and units<= 49:
+    print("pack")
+elif units >=50 and units<= 499:
+    print("horde")
+elif units >= 500  and units<= 999:
+    print("swarm")
 else:
-    print("No such traffic light color, do whatever you want")
+    print("legion")

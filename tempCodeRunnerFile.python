@@ -1,14 +1,10 @@
-units = int(input())
+kind_food = input()
 
-if units < 1:
-    print("no army")
-elif units >=1 and units<= 9:
-    print("few")
-elif units >=10 and units<= 49:
-    print("pack")
-elif units >=50 and units<= 499:
-    print("horde")
-elif units >= 500  and units<= 999:
-    print("swarm")
+if kind_food == "pizza":
+    print("Margherita, Four Seasons, Neapolitan, Vegetarian, Spicy")
+elif kind_food == "salad":
+    print("Caesar salad, Green salad, Tuna salad, Fruit salad")
+elif kind_food == "soup":
+    print("Chicken soup, Ramen, Tomato soup, Mushroom cream soup")
 else:
-    print("legion")
+    print("Sorry, we don't have it on the menu")

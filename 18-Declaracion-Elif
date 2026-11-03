@@ -183,3 +183,51 @@ def evaluate_grade(score):
         return "F"
 
 print(evaluate_grade(78))
+
+# Ejercicio 4
+
+A = int(imput())
+B = int(imput())
+H = int(imput())
+
+if H < A:
+    print("Deficiency")
+elif H > B:
+    print("Excess")
+else:
+    print("Normal")
+
+#Ejercicio 5
+
+average = int(input())
+
+if average < 2:
+    print("That's rare nowadays!")
+elif average < 4:
+    print("This seems reasonable")
+else:
+    print("Don't forge to take breaks!")
+
+#Ejercicio 6
+
+user_input = int(input("Please enter a number:"))
+
+if user_input < 10:
+    print("Is' s a simgle digit number")
+elif user_input < 100:
+    print("Is's a double digit number.")
+else:
+    print("The number has multiple digits.")
+
+#Ejercicio 7
+
+kind_food = input()
+
+if kind_food == "pizza":
+    print("Margherita, Four Seasons, Neapolitan, Vegetarian, Spicy")
+elif kind_food == "salad":
+    print("Caesar salad, Green salad, Tuna salad, Fruit salad")
+elif kind_food == "soup":
+    print("Chicken soup, Ramen, Tomato soup, Mushroom cream soup")
+else:
+    print("Sorry, we don't have it on the menu")

@@ -231,3 +231,64 @@ elif kind_food == "soup":
     print("Chicken soup, Ramen, Tomato soup, Mushroom cream soup")
 else:
     print("Sorry, we don't have it on the menu")
+
+
+#Ejercicio 8
+
+index_of_synthesis = float(input())
+
+if index_of_synthesis < 2:
+    print("Analytic")
+elif index_of_synthesis <= 3:
+    print("Synthetic")
+else:
+    print("Polysynthetic")
+
+#Solucion alterniva avanzada
+
+n = float(input())
+print(['Analytic', 'Synthetic', 'Polysynthetic'][(n >= 2) + (n > 3)])
+
+#Ejercicio 9
+
+spin = input()
+electric_charge = input()
+
+if spin == "1/2" and electric_charge == "-1/3":
+    print("Strange Quark")
+elif spin == "1/2" and electric_charge == "2/3":
+    print("Charm Quark")
+elif spin == "1/2" and electric_charge == "-1":
+    print("Electron Lepton")
+elif spin =="1/2" and electric_charge == "0":
+    print("Electron Lepton")
+elif spin == "1" and electric_charge == "0":
+    print("Photon Boson")
+
+#Alternativa avanzada con clases
+
+particle_class = {('1/2', '-1/3'): 'Strange Quark',
+                  ('1/2', '2/3'): 'Charm Quark',
+                  ('1/2', '-1'): 'Electron Lepton',
+                  ('1/2', '0'): 'Neutrino Lepton',
+                  ('1', '0'): 'Photon Boson'}
+spin, electric_charge = input(), input()
+print(particle_class[(spin, electric_charge)])
+
+
+#Ejercicio 10
+
+dias =["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+
+dezplazamiento = int(input())
+
+hora = int(input())
+
+if hora < 0:
+    dia= 0
+elif hora >= 24:
+    dia = 2
+else:
+    dia = 1
+
+print(dias[dia])

@@ -1,8 +1,4 @@
-string = "red yellow fox bite orange goose beeeeeeeeeeep"
-vowels = 'aeiou'
-count = 0
+word = input()
 
-for letter in string:
-    if letter in vowels:
-        count += 1
-print(count)
+# Change the next line
+print(word+word)

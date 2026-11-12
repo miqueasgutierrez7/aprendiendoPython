@@ -1,4 +1,1 @@
-word = input()
-
-# Change the next line
-print(word+word)
+print(1.0 * 2)

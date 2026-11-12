@@ -110,3 +110,27 @@ word = input()
 
 # Change the next line
 print(word+word)
+
+
+a = int("10.3")
+
+print(a)
+
+#Ejemplo2
+
+n = 2.777
+print(str(float(int(n))))
+
+#Ejemplo3
+
+try:
+    dollar_amount = input("Enter the amount in dollars: ")
+    dollar_float = float(dollar_amount)
+    euro_amount = round(dollar_float * 0.85, 2)
+    print(euro_amount)
+
+except ValueError:
+    print("Invalid input. Please enter a valid number.")
+
+
+print(1.0 * 2)

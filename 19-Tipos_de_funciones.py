@@ -132,5 +132,11 @@ try:
 except ValueError:
     print("Invalid input. Please enter a valid number.")
 
-
 print(1.0 * 2)
+
+
+#Ejemplo4
+
+n = 12345
+# put your python code here
+print(str(n)*100)
